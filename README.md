@@ -10,7 +10,7 @@
 - # [Как подключиться к VPN](#как-подключить-сервер)
 
 ### Windows Links
-- [Invisible X-Ray](https://github.com/InvisibleManVPN/InvisibleMan-XRayClient/releases/download/v2.1.2/InvisibleManXRay-x64.zip)
+- [Invisible X-Ray](https://github.com/InvisibleManVPN/InvisibleMan-XRayClient/releases/download/v3.2.5/InvisibleManXRay-x64.zip)
 - [v2RayN](https://github.com/2dust/v2rayN/releases/download/6.55/v2rayN.zip)
 ### Android Links
 - [v2RayNG](https://github.com/2dust/v2rayNG/releases/download/1.8.38/v2rayNG_1.8.38_arm64-v8a.apk)
