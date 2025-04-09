@@ -22,7 +22,7 @@
 ### MacOS Links
 - [V2Box](https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690)
 - [Nekoray (ARM CPU)](https://github.com/abbasnaqdi/nekoray-macos/releases/download/3.26/nekoray_arm64.zip)
-- [Nekoray (AMD CPU)](https://github.com/abbasnaqdi/nekoray-macos/releases/download/3.26/nekoray_amd64.zip)
+- [Nekoray (Intel CPU)](https://github.com/abbasnaqdi/nekoray-macos/releases/download/3.26/nekoray_amd64.zip)
 ### Linux Links
 - [Nekoray](https://github.com/MatsuriDayo/nekoray/releases/download/3.26/nekoray-3.26-2023-12-09-linux64.zip)
 - [Nekoray (Debian)](https://github.com/MatsuriDayo/nekoray/releases/download/3.26/nekoray-3.26-2023-12-09-debian-x64.deb)
