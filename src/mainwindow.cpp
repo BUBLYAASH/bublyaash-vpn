@@ -1,16 +1,18 @@
 #include "mainwindow.h"
 
 #include <QHBoxLayout>
+#include <QMainWindow>
 #include <QVBoxLayout>
+#include <QDebug>
 
-MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
+MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent){
     createWindow();
 }
 
 void MainWindow::createWindow() {
     this->setFixedSize(400, 600);
     this->setWindowTitle("BUBLYAASH VPN");
-    this->setStyleSheet("background-image: url(':/media/media/background.png');"
+    this->setStyleSheet("background-image: url(':/media/background.png');"
                         "background-repeat: no-repeat;"
                         "background-position: center;");
     QVBoxLayout *layout = new QVBoxLayout();

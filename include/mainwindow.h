@@ -1,6 +1,7 @@
+#include <QMainWindow>
 #include <QWidget>
 
-class MainWindow : public QWidget {
+class MainWindow : public QMainWindow {
     Q_OBJECT
 private:
     void createWindow();

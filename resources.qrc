@@ -1,6 +1,6 @@
 <!DOCTYPE RCC>
 <RCC>
-    <qresource prefix="/media">
+    <qresource prefix="/">
         <file>media/background.png</file>
     </qresource>
 </RCC>
