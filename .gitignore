@@ -3,3 +3,5 @@ Makefile
 .idea
 cmake-build-debug
 *.rcc
+VPN.app
+VPN.app/Contents
