@@ -1,3 +1,5 @@
 .qmake.stash
 Makefile
 .idea
+cmake-build-debug
+*.rcc
