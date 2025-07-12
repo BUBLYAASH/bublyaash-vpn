@@ -2,5 +2,6 @@
 <RCC>
     <qresource prefix="/">
         <file>media/background.png</file>
+        <file>servers.json</file>
     </qresource>
 </RCC>
