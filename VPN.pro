@@ -4,7 +4,7 @@ INCLUDEPATH += . include/
 
 DEFINES += QT_DEPRECATED_WARNINGS
 
-QT += gui core widgets
+QT += gui core widgets network
 
 HEADERS += \
     include/mainwindow.h
