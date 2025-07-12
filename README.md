@@ -5,7 +5,7 @@
 - ## [MacOS](#macos-links)
 - ## [Linux](#linux-links)
 
-<br><br>
+<br>
 
 - # [Как подключиться к VPN](#как-подключить-сервер)
 
