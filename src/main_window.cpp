@@ -1,4 +1,4 @@
-#include "mainwindow.h"
+#include "main_window.h"
 
 #include <QComboBox>
 #include <QFile>
@@ -62,22 +62,23 @@ void MainWindow::createWindow() {
     QNetworkAccessManager *nam = new QNetworkAccessManager(this);
     connect(nam, &QNetworkAccessManager::finished,
             this, &MainWindow::onServersDownloaded);
-    QUrl url("https://raw.githubusercontent.com/BUBLYAASH/bublyaash-vpn/master/servers.json");
+    QUrl url("https://raw.githubusercontent.com/BUBLYAASH/bublyaash-vpn/master/configs/servers.json");
     nam->get(QNetworkRequest(url));
 
     QWidget *widget = new QWidget(this);
     this->setCentralWidget(widget);
 
     QVBoxLayout *layout = new QVBoxLayout(widget);
-    layout->setAlignment(Qt::AlignCenter);
+    layout->setAlignment(Qt::AlignHCenter);
 
     QLabel *label = new QLabel("BUBLYAASH");
-    label->setStyleSheet("font-size: 24px; color: white;");
+    label->setStyleSheet("font-size: 24px; color: white; background: transparent;");
     label->setAlignment(Qt::AlignTop);
 
     serversList = new QComboBox(this);
     serversList->setStyleSheet("background: transparent; border: none; color: white;");
     serversList->setFixedSize(200, 50);
+    serversList->setCursor(Qt::PointingHandCursor);
 
     // QFile file(":/servers.json");
     // if (!file.open(QIODevice::ReadOnly)) {
@@ -94,6 +95,6 @@ void MainWindow::createWindow() {
     //     return;
     // }
 
-    layout->addWidget(label);
-    layout->addWidget(serversList);
+    layout->addWidget(label, 0, Qt::AlignTop | Qt::AlignHCenter);
+    layout->addWidget(serversList, 0, Qt::AlignCenter);
 }
